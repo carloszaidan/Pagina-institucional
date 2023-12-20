@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, sans-serif;
+}
+
+.loja-virtual {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px;
+}
+
+.loja-virtual .informacoes-loja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.loja-virtual .informacoes-loja .descricao {
+    padding-right: 175px;
+}
+
+.loja-virtual .informacoes-loja .imagen-loja {
+    width: 400px;
+    height: 400px;
+}
+
+.loja-virtual .informacoes-loja .descricao .solucoes {
+    font-size: 40px;
+}
+
+.loja-virtual .informacoes-loja .descricao .virtual {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.loja-virtual .informacoes-loja .descricao .descricao-loja {
+    font-size: 30px;
+    margin-top: 25px;
+    direction: inherit;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 50px 100px;
+    background-color: #257226;
+}
+
+.texto .texto-compra {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.texto .link-parceiraco {
+    color: #84BD00;
+}
+
+.texto .foto-parceiraco {
+    margin-bottom: -97px;
+}
+
+.atendimento-cliente {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 100px;
+}
+
+.atendimento-cliente .info-cliente {
+    height: 390px;
+    display: flex;
+    align-items: center;
+    background-color: #84bd00ff;
+    padding: 0px 61px 0px 185px;
+}
+
+.atendimento-cliente .info-cliente .texto-cliente {
+    font-size: 30px;
+    direction: inherit;
+}
+
+.info-segmentos {
+    padding: 0px 100px;
+}
+
+.info-segmentos .texto-segmentos {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 42px;
+    direction: inherit;
+}
+
+.fotos-segmentos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secao-portifolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Group\ 37.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 214px;
+    margin: 50px 100px;
+    padding: 0px 100px;
+}
+
+.secao-portifolio .texto-portifolio { 
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.secao-suporte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 237px;
+}
+
+.texto-suporte { 
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+@media (max-width: px){
+    .loja-virtual, .texto, .atendimento-cliente, .info-segmentos, .secao-portifolio {
+        margin: 30px 50px;
+    }
+}
